@@ -31,4 +31,4 @@
     ansible.builtin.unarchive:
       src: /tmp/backend.zip
       dest: /app
-      reomte_sc: yes
+      reomte_src: yes
