@@ -1,5 +1,5 @@
 - name: mysql configuration
-  hosts:
+  hosts: mysql
   become: yes
   tasks:
   - name: install MYSQL Server
