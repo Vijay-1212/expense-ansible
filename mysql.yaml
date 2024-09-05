@@ -3,7 +3,7 @@
   become: yes
   vars:
     mysql_root_password: ExpenseApp@1
-    login_date: mysql.vijay1212.online
+    login_host: mysql.vijay1212.online
   tasks:
   - name: ansible to install pymysql
     ansible.builtin.pip:
