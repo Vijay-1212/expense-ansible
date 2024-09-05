@@ -29,6 +29,6 @@
 
   - name: extract the code
     ansible.builtin.unarchive:
-      src: /tmp/backend.zip
+      src: /tmp/backend.zip #by default ansible thins this is in ansible server
       dest: /app
-      reomte_src: yes
+      remote_src: yes
